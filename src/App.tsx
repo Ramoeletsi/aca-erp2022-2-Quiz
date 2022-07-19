@@ -40,7 +40,7 @@ function App() {
   return (
     <>
     <div className="App">
-      <h1 className='Quiztitle'>REACT QUIZ WEB</h1>
+      <h1 className='Quiztitle'>REACT QUIZ APP</h1>
       <h2 className='currentScore'>Current Score: {score}</h2>
     {showScore ?(
       <div className='Results'>

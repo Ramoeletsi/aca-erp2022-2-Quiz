@@ -54,7 +54,7 @@ body{
   display: flex;
   margin-left: 10%;
   padding: 5px;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   text-align: center;
   border: 5px solid #068383cc;
@@ -91,12 +91,12 @@ li {
   justify-content: center;
   margin-left: 40%;
   text-align: center;
-  border: 5px solid #656969cc;
+  border: 5px solid #068383cc;
   cursor: pointer;
 }
 .nextButton:hover{
   text-transform: uppercase;
-  background-color: #557d64;
+  background-color: #068383cc;
 }
 
 .restBtn{

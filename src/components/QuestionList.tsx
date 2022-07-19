@@ -427,17 +427,17 @@ const QuestionList = [
          answerOptions: [
             {id:0, answerText: " Caching", isCorrect: false},
             {id:1, answerText: " You can't. git marge --squash is the only git command fro that opeation", isCorrect: false},
-            {id:2, answerText: " Rebasing ", isCorrect: false},
-            {id:3, answerText: " Reflogging", isCorrect: true},
+            {id:2, answerText: " Rebasing ", isCorrect: true},
+            {id:3, answerText: " Reflogging", isCorrect: false},
         ]
     },
     {
         questionText: "Which option on the git log command allows you to limit output to commit made after certain data?",
          answerOptions: [
-            {id:0, answerText: " --since", isCorrect: false},
+            {id:0, answerText: " --since", isCorrect: true},
             {id:1, answerText: " --sinceWhen", isCorrect: false},
             {id:2, answerText: " -", isCorrect: false},
-            {id:3, answerText: " afterDate", isCorrect: true},
+            {id:3, answerText: " afterDate", isCorrect: false},
         ]
     },
     {
@@ -554,11 +554,11 @@ const QuestionList = [
             {id:0, answerText: " A type of architecture used to manage large databases", isCorrect: false},
             {id:1, answerText: " A system that shows, tracks, and controls changes to a set of files over time", isCorrect: true},
             {id:2, answerText: " A programmatic design pattern used to manage code between multiple engineering teams", isCorrect: false},
-            {id:3, answerText: " A type od software that links a project with a GitHub repository ", isCorrect: false},
+            {id:3, answerText: " A type of software that links a project with a GitHub repository ", isCorrect: false},
     ]
     },
     {
-        questionText: "Whta information does the git config file store?",
+        questionText: "What information does the git config file store?",
          answerOptions: [
             {id:0, answerText: " Shell script and flags", isCorrect: false},
             {id:1, answerText: " Keychain and account information", isCorrect: false},
