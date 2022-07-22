@@ -5,6 +5,7 @@ import QuizSummary from './components/QuizSummary';
 import Typewriter from  'typewriter-effect';
 
 function App() {
+  
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [wrong, setWrong] = useState(0)

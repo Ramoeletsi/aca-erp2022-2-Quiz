@@ -61,16 +61,7 @@ const QuizSummary = () => {
                 <p>Quistion 48: (C) =  (git merge --abort)  A command used to stop the merge and restore the pre-merge state.</p>
                 <p>Quistion 49: (B) =  (git --version)  A command  used fpr checking the current git version.</p>
                 <p>Quistion 50: (D) =  (git init) Git command used for creating a new git repository.</p>
-                <p>Quistion 51: (A) =  (git tag v3.8.1) Git command used for creating a lightweight tag</p>
-                <p>Quistion 52: (D) =  (git rebase) A command that deletes all commit history for the new feature branch.</p>
-                <p>Quistion 53: (D) =  (create a custom shortcut or command across git environment) Create an alias in the git config file.</p>
-                <p>Quistion 54: (A) =  (add) A git command used for tracking of new file</p>
-                <p>Quistion 55: (A) =  (git add -A) A command uesd for staging all new and updated files.</p>
-                <p>Quistion 56: (B) =  ( pre-receive hook) Is user to execute a script when a remote receives a psuh that is traggered before any refs are updated.</p>
-                <p>Quistion 57: (A) =  (git romete -v) A command used for printing a list of remote repositories and their URLs to the Terminal.</p>   
-                <p>Quistion 58: (B) =  (version control) A system that shows, tracks, and controls changes to a set of files over time.</p>
-                <p>Quistion 59: (C) =  (git config file) Stores local and Global repository </p>
-                <p>Quistion 60: (D) =  (gitfatch --all git reset --hard origin/master) Git commands used for forcing an overwrite of local files with the master branch </p>
+                
             </div>  
         </div>
         
