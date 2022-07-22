@@ -42,13 +42,13 @@ function App() {
     <>
     <div className="App">
       <h1 className='Quiztitle'>REACT QUIZ APP</h1>
-      <h2 className='currentScore'>Current Score: {score}</h2>
+    
     {showScore ?(
       <div className='Results'>
         <div className='quizComplete'> 
           <Typewriter
              onInit={(typewriter) =>
-             typewriter.typeString('QIUZ COMPLETE')
+             typewriter.typeString('QUIZ COMPLETE')
              .start()
             }
           /> 
@@ -75,6 +75,7 @@ function App() {
       <div className='question-section'>
       <div className='question-count'>
         Question {currentQuestion + 1} of {QuestionList.length}
+        <h2 className='currentScore'>Current Score: {score}</h2>
         </div>
         <div className='question-text'>
           {QuestionList[currentQuestion].questionText}
@@ -84,6 +85,7 @@ function App() {
             <button disabled={clicked} className={`answerButton ${clicked && answerOption.isCorrect ? "correct" :""}`} onClick={() => handleAnswerButtonClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
           </li>
 				))}
+
       </div>
       <div className='btnNext'>
         <button className='nextButton' onClick={handleNextClicked} disabled={!clicked}> Next</button>

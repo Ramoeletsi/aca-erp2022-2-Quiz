@@ -16,20 +16,23 @@ code {
   text-align: center;
 
 }
+body{
+  background-color: aquamarine;
+}
 .Quiztitle{
   font-family:'Times New Roman', Times, serif;
   font-size: 250%;
 }
 .currentScore{
+  margin-inline-start: 1%;
   font-family: 'Times New Roman', Times, serif;
-  color: royalblue; 
+  color: rgb(247, 243, 243);   
+  font-size: 20px;
 }
-body{
-  background-color: aquamarine;
-}
+
 .question-count {
   margin-bottom: 20px;
-  font-size: 20px;  
+  font-size: 25px;
 }
 .question-text{
   font-size: 20px;

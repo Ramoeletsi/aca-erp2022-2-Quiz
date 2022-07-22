@@ -3,7 +3,7 @@ const QuizSummary = () => {
     return (
         <div className="quizSummary">
             <h1>Summary</h1>
-            <h2>Anwser and Explanations</h2>
+            <h2>Anwsers and Explanations</h2>
             
             <div className="questionSummary">
                 <p>Quistion 1: (B) = (git push) Git command used to upload code and changes to GitHub</p>
